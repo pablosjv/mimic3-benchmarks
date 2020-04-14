@@ -82,9 +82,11 @@ celerybeat-schedule
 
 # dotenv
 .env
+.envrc
 
 # virtualenv
 venv/
+.venv/
 ENV/
 
 # Spyder project settings
@@ -96,3 +98,6 @@ ENV/
 # States of models
 keras_states/
 states/
+
+# Data folder
+/data
